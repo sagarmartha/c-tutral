@@ -8,19 +8,19 @@ int main() {
 
 switch (day){
 case 1: printf("monday\n");
-  break;
+  // break;
 case 2: printf("tuesday\n");
-  break;
+  // break;
 case 3: printf("wedneday\n");
-  break;
+  // break;
 case 4: printf("thurday\n");
-  break;
+  // break;
 case 5: printf("friday\n");
-  break;
+  // break;
 case 6: printf("saturday\n");
-  break;
+  // break;
 case 7: printf("sunday\n");
-  break;
+  // break;
 
     default:
       printf("not a valid day \n");
