@@ -4,19 +4,22 @@
 
 #include<stdio.h>
 #include<math.h>
-// Solve problem using if-else
+// Solve problem using if,else, else-if to save all case
  int main(){
-   int marks;
+   int marks ;
    printf("enter number(0-100) : ");
    scanf("%d", &marks);
 
-   if (marks <= 30)
+   if (marks >= 0 && marks <= 30 )
    {
      printf("FAIL \n");
    }
+   else if (marks > 30 && marks <= 100){
+    printf("PASS \n");
+   }
    else
    {
-     printf("PASS \n");
+     printf("wrong marks \n");
    }
 
    return 0;
