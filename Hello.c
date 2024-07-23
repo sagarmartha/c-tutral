@@ -25,5 +25,6 @@ case 7: printf("sunday\n");
     default:
       printf("not a valid day \n");
 }
+//after the commentout all break output is all the print of statement
   return 0;
 }
