@@ -8,19 +8,19 @@ int main() {
 
 switch (day){
 case 1: printf("monday\n");
-  // break;
+  break;
 case 2: printf("tuesday\n");
-  // break;
+  break;
 case 3: printf("wedneday\n");
-  // break;
+  break;
 case 4: printf("thurday\n");
-  // break;
+  break;
 case 5: printf("friday\n");
-  // break;
+  break;
 case 6: printf("saturday\n");
-  // break;
+  break;
 case 7: printf("sunday\n");
-  // break;
+  break;
 
     default:
       printf("not a valid day \n");
@@ -28,3 +28,28 @@ case 7: printf("sunday\n");
 //after the commentout all break output is all the print of statement
   return 0;
 }
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//   int number;
+//   printf("enter number : ");
+//   scanf("%d", &number);
+
+//   if (number >= 0)
+//   {
+//     printf("positive \n");
+//     if (number % 2 == 0)
+//     {
+//       printf("even \n");
+//     }
+//     else{
+//       printf("odd \n");
+//     }
+    
+//   }
+  
+//   else {
+//     printf("negitive \n"); 
+//   }
+//   return 0;
+// }
