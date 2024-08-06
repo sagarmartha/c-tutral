@@ -14,6 +14,7 @@ int main (){
   }
   printf("sum is %d\n", sum);
 
+  // print the value in reverse
   for (int i = n; i>=1; i--)
   {
     printf("%d\n", i);
